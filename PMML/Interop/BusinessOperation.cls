@@ -21,7 +21,7 @@ Method PMMLClassNameSet(pClassName As %String) As %Status [ Internal, ServerOnly
 	quit ..Reset()
 }
 
-Method OnRequest(pRequest As GenericRequest, pResponse As GenericResponse) As %Status
+Method OnMessage(pRequest As GenericRequest, pResponse As GenericResponse) As %Status
 {
 	set tSC = $$$OK
 	try {
@@ -51,15 +51,6 @@ Method OnRequest(pRequest As GenericRequest, pResponse As GenericResponse) As %S
 		set tSC = ex.AsStatus()
 	}
 	quit tSC
-}
-
-XData MessageMap
-{
-<MapItems>
-<MapItem MessageType="PMML.Interop.GenericRequest">
-<Method>OnRequest</Method>
-</MapItem>
-</MapItems>
 }
 
 }
