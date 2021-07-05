@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="pmml.MODULE">
+  <Document name="pmml-utils.ZPM">
     <Module>
-      <Name>pmml</Name>
-      <Version>0.0.1</Version>
+      <Name>pmml-utils</Name>
+      <Version>0.0.2</Version>
+      <Description>Basic utilities for working with PMML in an Interoperability Production</Description>
       <Packaging>module</Packaging>
       <LifecycleClass>PMML.Lifecycle</LifecycleClass>
       <Resources>
         <Resource Name="PMML.PKG">
-          <Attribute Name="Directory">.</Attribute>
+          <Attribute Name="Directory">./src/cls/</Attribute>
         </Resource>
       </Resources>
     </Module>

@@ -1,11 +1,3 @@
-/// Sample tree models copied from the DMG.org PMML reference
-Class Demo.SampleModels.GolfModel  Extends %DeepSee.PMML.Definition
-{
-
-/// The XData block containing the actual PMML specification.
-XData PMML [ XMLNamespace = "http://www.intersystems.com/deepsee/pmml" ]
-{
-<?xml version="1.0" ?>
   <PMML version="4.1" xmlns="http://www.dmg.org/PMML-4_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.dmg.org/PMML-4_1 http://www.this.one.does.not.exist.com/my.xsd">
     <Header copyright="www.dmg.org" description="A very small binary tree model to show structure."/>
     
@@ -132,7 +124,3 @@ XData PMML [ XMLNamespace = "http://www.intersystems.com/deepsee/pmml" ]
     </TreeModel>
     
   </PMML>
-}
-
-}
-
