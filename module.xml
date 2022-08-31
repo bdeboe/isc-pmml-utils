@@ -3,7 +3,7 @@
   <Document name="pmml-utils.ZPM">
     <Module>
       <Name>pmml-utils</Name>
-      <Version>0.0.2</Version>
+      <Version>1.1.1</Version>
       <Description>Basic utilities for working with PMML in an Interoperability Production</Description>
       <Packaging>module</Packaging>
       <LifecycleClass>PMML.Lifecycle</LifecycleClass>
