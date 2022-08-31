@@ -1,3 +1,7 @@
+![Repo-GitHub](https://img.shields.io/badge/dynamic/xml?color=blue&label=ZPM%20version&version&prefix=v&query=%2F%2FVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2Fbdeboe%2Fisc-pmml-utils%2Fmaster%2Fmodule.xml)
+[![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fisc-pmml-utils&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fisc-pmml-utils)
+
+
 # PMML Business Operation
 
 This repository offers a generic Business Operation for leveraging predictive models expressed in PMML in your Interoperability productions. See below for a description of the utility code or skip through to [the sample](#the-sample). 
